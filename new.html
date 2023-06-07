@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- stilimi ne css i fjaleve ne body -->
+  <style>
+	  p {
+	  text-align: justify;
+	  padding-right: 90px;
+	  padding-left: 90px;
+	}
+    
+    body {
+      font-family: High Tower Text, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #000000;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #000000;
+      color: #fff;
+      padding: 15px;
+	  padding-left: 0px;
+	  padding-right: 20px;
+      text-align: right;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    main {
+      padding-top: 40px;
+      padding-bottom: 0px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+	
+	
+  </style>
+  
+<!-- stili i karuselit me foto -->
+  <style>
+        .carousel {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-container {
+            display: flex;
+            transition: transform 4s ease;
+			background: black;
+			padding-top: 50px;
+			padding-left: 30px;
+			padding-bottom: 30px;
+        }
+
+        .carousel-item {
+            flex: 0 0 30%;
+			margin-right: 5px;
+			padding-right: 20px;
+			padding-left: 20px;
+        }
+		
+		.carousel-overlay {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: rgba(0, 0, 0, 0.7);
+			padding: 10px;
+			color: white;
+			font-size: 27px;
+			font-weight: bold;
+			text-align: center;
+			width: 100%;
+		}
+        
+    </style>
+	
+<!-- stilimi i karuselit me video -->
+	<style>
+    .carousel1 {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel-container1 {
+        display: flex;
+        background: black;
+        padding-top: 50px;
+        padding-left: 0px;
+		padding-right: 0px;
+        position: relative;
+    }
+
+    .carousel-item1 {
+        flex: 0 0 20%;
+        margin-right: 0px;
+        padding-right: 5px;
+        padding-left: 5px;
+        position: relative;
+    }
+
+    .carousel-item1 video {
+        display: block;
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-overlay1 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        cursor: pointer;
+    }
+</style>
+    
+<!-- stili i karuselit me foto birthdays-->
+  <style>
+        .carousel2 {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-container2 {
+            display: flex;
+            transition: transform 4s ease;
+			background: black;
+			padding-top: 50px;
+			padding-left: 30px;
+			padding-bottom: 30px;
+        }
+
+        .carousel-item2 {
+            flex: 0 0 22%;
+			margin-right: 5px;
+			padding-right: 20px;
+			padding-left: 20px;
+        }
+        
+    </style>
+	
+  
+</head>
+
+
+<body>
+
+<!-- Navigation bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#weddings">Weddings</a>
+    <a href="#birthdays">Birthdays</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+
+  <header>
+    <h1 align="center">
+      <img src="image.jpg" width="100%" height="100%">
+	  <p><h2><i> Beni momentet tuaja te paharrueshme! </i></h2></p>
+    </h1>
+  </header>
+
+<!-- informacionet e vendosura ne home -->
+  <main>
+    <section id="home">
+	<h5 align="right"><font size="+1" color="white"> .</h5></font>
+      <h1 align="center"><font size="+3"> Mirësevini në faqen zyrtare te Albanian Folk.</h1></font>
+      <p><font size="+1">Kjo faqe shënon dhe feston botën kapërcyese të kulturës popullore shqiptare. 
+	  Shqipëria, një vend i vendosur në zemër të Ballkanit, përmban një trashëgimi të pasur dhe të veçantë kulturore popullore që reflekton historinë 
+	  dhe traditat e pasura të popullit shqiptar. </p>
+	
+	<p>Muzika popullore shqiptare, ofron një gamë të gjerë instrumentesh, duke përfshirë çiftelin, daullen dhe def-in karakteristik. 
+	Meloditë dhe ritmet janë shpesh të gjalla, të ndjera dhe të ngjyrosura me emocione që tregojnë histori dashurie, 
+	  trimërie dhe jetës së përditshme. </p>
+	
+	<p>Bashkëngjitur me muzikën, kemi vallet e mahnitshme tradicionale shqiptare. Këto valle janë ritmike dhe energjike, dhe kryhen me kostume të ngjyrosura 
+	dhe të reja që ndryshojnë nëpër rajone të ndryshme të vendit. Çdo valle ka stilin dhe koreografinë e saj unike, që paraqesin karakteristikat kulturore të 
+	veçanta të zonave të caktuara. </p>
+	
+	<p>Në këtë faqe interneti, synojmë të ofrojmë një eksplorim të hollësishëm të kulturës popullore shqiptare, duke përfshirë artikuj, video, fotografira 
+	dhe burime për të zhytur më thellë në këtë botë të mahnitshme. Bashkohuni me ne per t'a bere festen tuaj të pasur me muzike popullore, 
+	valle, kostume tradicionale. Ne punojmë me përkushtim dhe pasion për të krijuar atmosfera të veçanta dhe organizuar ngjarje të mahnitshme që do të mbeten 
+	në kujtesën tuaj si njëra nga eksperienca më të bukura të festave.</p></font>
+	
+    </section></br></br>
+
+<!-- informacionet ne weddings -->
+	<section id="weddings">
+	<h5 align="right"><font size="+1" color="white"> .</h5></font>
+      <h1 align="center"><font size="+3">Weddings</h1> </font>
+      <p><font size="+1">Kur vjen puna tek dasmat, ne kuptojmë rëndësinë e krijuarjes së kujtimeve të paharrueshme në ditën tuaj të madhe. Ekipi ynë i kërcimtarëve profesionistë 
+	  është i aftë në një varietet stilash tradicionale të valleve shqiptare, duke përfshirë Valle e Rugovës energjike, Vallja e Tropojës elegante dhe 
+	  Vallja e Shqipërisë së Mesme entuziaste. Ne do të pershtatim repertorin tonë me nevojat dhe 
+	  preferencat tuaja specifike, duke siguruar që paraqitja të përshtatet përsosmërisht me atmosferën dhe temën e dasmës suaj. </p></font>
+	  
+	</section></br></br>
+	
+	
+<!-- lidhja me stilimet e karuselit me foto dhe perberesit e tij ne weddings -->
+   <div class="carousel">
+        <div class="carousel-container">
+		<div class="carousel-overlay">Photo</div>
+            <div class="carousel-item">
+                <img height="350px" width="100%" src="1.jpg" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img height="350px" width="100%" src="2.jpg" alt="Image 2">
+            </div>
+			<div class="carousel-item">
+                <img height="350px" width="100%" src="3.jpg" alt="Image 3">
+            </div>
+			<div class="carousel-item">
+                <img height="350px" width="100%" src="4.jpg" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img height="350px" width="100%" src="5.jpg" alt="Image 5">
+            </div>
+			<div class="carousel-item">
+                <img height="350px" width="100%" src="6.jpg" alt="Image 6">
+            </div>
+			<div class="carousel-item">
+                <img height="350px" width="100%" src="7.jpg" alt="Image 7">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Automatically rotate carousel every 4 seconds
+        setInterval(function() {
+            var container = document.querySelector('.carousel-container');
+            container.style.transform = 'translateX(-0%)';
+            setTimeout(function() {
+                container.appendChild(container.firstElementChild);
+                container.style.transform = 'translateX(0)';
+            }, 4000);
+        }, 4000);
+    </script></br></br>
+	
+	
+
+<!-- lidhja me stilimet e karuselit me video dhe perberesit e tij ne weddings -->
+	<div class="carousel1">
+    <div class="carousel-container1">
+        <div class="carousel-overlay1">Video</div>
+        <div class="carousel-item1">
+            <video preload="metadata" autoplay muted>
+                <source src="vid1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="carousel-item1">
+            <video preload="metadata" autoplay muted>
+                <source src="vid2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="carousel-item1">
+            <video preload="metadata" autoplay muted>
+                <source src="vid5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="carousel-item1">
+            <video preload="metadata" autoplay muted>
+                <source src="vid4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="carousel-item1">
+            <video preload="metadata" autoplay muted>
+                <source src="vid3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+
+<script>
+    var videos = document.querySelectorAll('.carousel-item1 video');
+    
+    videos.forEach(function(video) {
+        video.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+</script> </br></br>
+
+   
+	
+	
+<!-- informacionet e vendosura ne birthdays -->
+	<section id="birthdays">
+	<h5 align="right"><font size="+1" color="white"> .</h5></font>
+      <h1 align="center"><font size="+3">Birthdays</h1> </font>
+      <p><font size="+1">Pavarësisht nëse jeni duke festuar një moment historik ose thjesht dëshironi ta bëni ditëlindjen tuaj të paharrueshme,
+	  kërcimtarët tanë të talentuar janë këtu për të magjepsur ju dhe mysafirët tuaj. Përjetoni bukurinë dhe hirin e vallëzimeve tona autentike 
+	  tradicionale ndërsa ne sjellim pasuri kulturore në festën tuaj të ditëlindjes.</p>
+	  
+<!-- lidhja me stilimet e karuselit me foto dhe perberesit e tij ne birthday -->
+   <div class="carousel2">
+        <div class="carousel-container2">
+            <div class="carousel-item2">
+                <img height="350px" width="100%" src="8.jpg" alt="Image 1">
+            </div>
+            <div class="carousel-item2">
+                <img height="350px" width="100%" src="9.jpg" alt="Image 2">
+            </div>
+			<div class="carousel-item2">
+                <img height="350px" width="100%" src="10.jpg" alt="Image 3">
+            </div>
+			<div class="carousel-item2">
+                <img height="350px" width="100%" src="11.jpg" alt="Image 4">
+            </div>
+			<div class="carousel-item2">
+                <img height="350px" width="100%" src="12.jpg" alt="Image 4">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Automatically rotate carousel every 4 seconds
+        setInterval(function() {
+            var container = document.querySelector('.carousel-container2');
+            container.style.transform = 'translateX(-0%)';
+            setTimeout(function() {
+                container.appendChild(container.firstElementChild);
+                container.style.transform = 'translateX(0)';
+            }, 4000);
+        }, 4000);
+    </script>
+	
+    </section></br></br>
+
+
+
+
+
+<!-- informacionet e vendosura ne contact -->
+    <section id="contact">
+	<h5 align="right"><font size="+1" color="white"> .</h5></font>
+      <h1 align="center"><font size="+3">Contact Us</h1> </font>
+      <p><font size="+1">Nëse jeni gati të ngrini festën tuaj me bukurinë dhe energjinë e valltareve, instrumenteve dhe valleve popullore shqiptare, ju ftojmë të na kontaktoni. 
+	  Le të bëjmë ditën tuaj një përvojë të paharrueshme, te mbushur me magjinë dhe kthjelltësinë e kulturës tradicionale shqiptare.</p>
+	  
+	  <div style="display: flex; justify-content: left;">
+    <div style="text-align: left;">
+      <p><strong>Address:</strong> Tirana, Albania</p>
+      <p><strong>Phone:</strong> +355 69 990 1511</p>
+      <p><strong>Email:</strong> albanianfolk@gmail.com</p>
+    </div>
+  </div>
+  
+  
+    </section></br></br>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 ALBANIAN FOLK. All rights reserved. 
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<a href="https://www.facebook.com/" target="_blank">
+  <img src="facebook.png" width="50" height="50">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://z-p42.www.instagram.com/albanian_folk/?hl=ms" target="_blank">
+  <img src="instagram.png" width="50" height="50">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.tiktok.com/@albanianfolkk?_t=8bSqre1zF5i&_r=1" target="_blank">
+  <img src="tik_tok.png" width="50" height="50">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.youtube.com/" target="_blank">
+  <img src="youtube.png" width="50" height="50">
+</a>
+
+</p>
+	
+  </footer>
+</body>
+</html>
